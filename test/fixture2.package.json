@@ -1,0 +1,21 @@
+{
+  "name": "test-fixture-2",
+  "version": "1.1.1",
+  "contributes": {
+    "configuration": {
+      "title": "test2 settings",
+      "properties": {
+        "rts": {
+          "default": "123abc",
+          "description": "string field",
+          "type": "string"
+        },
+        "mun": {
+          "default": 21,
+          "description": "number field",
+          "type": "number"
+        }
+      }
+    }
+  }
+}

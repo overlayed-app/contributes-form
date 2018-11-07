@@ -1,0 +1,9 @@
+.gitignore
+jest.config.js
+tsconfig.json
+tslint.json
+.travis.yml
+
+coverage/
+src/**/*.t[s|sx]
+test/

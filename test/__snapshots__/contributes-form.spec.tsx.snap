@@ -1,0 +1,543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contributes-form should combine 1`] = `
+<form
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group field field-object"
+  >
+    <fieldset>
+      <div
+        className="form-group field field-object"
+      >
+        <fieldset>
+          <legend
+            id="root_test-fixture__title"
+          >
+            test-fixture
+          </legend>
+          <div
+            className="form-group field field-string"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_test-fixture_str"
+            >
+              str
+            </label>
+            <p
+              className="field-description"
+              id="root_test-fixture_str__description"
+            >
+              string field
+            </p>
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_test-fixture_str"
+              label="str"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value="abc123"
+            />
+            <div />
+            <div />
+          </div>
+          <div
+            className="form-group field field-number"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_test-fixture_num"
+            >
+              num
+            </label>
+            <p
+              className="field-description"
+              id="root_test-fixture_num__description"
+            >
+              number field
+            </p>
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_test-fixture_num"
+              label="num"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value={12}
+            />
+            <div />
+            <div />
+          </div>
+        </fieldset>
+        <div />
+        <div />
+      </div>
+      <div
+        className="form-group field field-object"
+      >
+        <fieldset>
+          <legend
+            id="root_test-fixture-2__title"
+          >
+            test-fixture-2
+          </legend>
+          <div
+            className="form-group field field-string"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_test-fixture-2_rts"
+            >
+              rts
+            </label>
+            <p
+              className="field-description"
+              id="root_test-fixture-2_rts__description"
+            >
+              string field
+            </p>
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_test-fixture-2_rts"
+              label="rts"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value="123abc"
+            />
+            <div />
+            <div />
+          </div>
+          <div
+            className="form-group field field-number"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_test-fixture-2_mun"
+            >
+              mun
+            </label>
+            <p
+              className="field-description"
+              id="root_test-fixture-2_mun__description"
+            >
+              number field
+            </p>
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_test-fixture-2_mun"
+              label="mun"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value={21}
+            />
+            <div />
+            <div />
+          </div>
+        </fieldset>
+        <div />
+        <div />
+      </div>
+    </fieldset>
+    <div />
+    <div />
+  </div>
+  <p>
+    <button
+      className="btn btn-info"
+      type="submit"
+    >
+      Submit
+    </button>
+  </p>
+</form>
+`;
+
+exports[`contributes-form should render 1`] = `
+<form
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group field field-object"
+  >
+    <fieldset>
+      <div
+        className="form-group field field-object"
+      >
+        <fieldset>
+          <legend
+            id="root_test-fixture__title"
+          >
+            test-fixture
+          </legend>
+          <div
+            className="form-group field field-string"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_test-fixture_str"
+            >
+              str
+            </label>
+            <p
+              className="field-description"
+              id="root_test-fixture_str__description"
+            >
+              string field
+            </p>
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_test-fixture_str"
+              label="str"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value="abc123"
+            />
+            <div />
+            <div />
+          </div>
+          <div
+            className="form-group field field-number"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_test-fixture_num"
+            >
+              num
+            </label>
+            <p
+              className="field-description"
+              id="root_test-fixture_num__description"
+            >
+              number field
+            </p>
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_test-fixture_num"
+              label="num"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value={12}
+            />
+            <div />
+            <div />
+          </div>
+        </fieldset>
+        <div />
+        <div />
+      </div>
+    </fieldset>
+    <div />
+    <div />
+  </div>
+  <p>
+    <button
+      className="btn btn-info"
+      type="submit"
+    >
+      Submit
+    </button>
+  </p>
+</form>
+`;
+
+exports[`contributes-form should support custom buttons 1`] = `
+<form
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group field field-object"
+  >
+    <fieldset>
+      <div
+        className="form-group field field-object"
+      >
+        <fieldset>
+          <legend
+            id="root_test-fixture__title"
+          >
+            test-fixture
+          </legend>
+          <div
+            className="form-group field field-string"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_test-fixture_str"
+            >
+              str
+            </label>
+            <p
+              className="field-description"
+              id="root_test-fixture_str__description"
+            >
+              string field
+            </p>
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_test-fixture_str"
+              label="str"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value="abc123"
+            />
+            <div />
+            <div />
+          </div>
+          <div
+            className="form-group field field-number"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_test-fixture_num"
+            >
+              num
+            </label>
+            <p
+              className="field-description"
+              id="root_test-fixture_num__description"
+            >
+              number field
+            </p>
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_test-fixture_num"
+              label="num"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value={12}
+            />
+            <div />
+            <div />
+          </div>
+        </fieldset>
+        <div />
+        <div />
+      </div>
+    </fieldset>
+    <div />
+    <div />
+  </div>
+  <div>
+    <button
+      className="custom"
+      type="submit"
+    >
+      Submit
+    </button>
+    <button
+      className="custom"
+      type="button"
+    >
+      Cancel
+    </button>
+  </div>
+</form>
+`;
+
+exports[`contributes-form should support rawSources 1`] = `
+<form
+  className="rjsf"
+  noValidate={false}
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group field field-object"
+  >
+    <fieldset>
+      <div
+        className="form-group field field-object"
+      >
+        <fieldset>
+          <legend
+            id="root_test-fixture__title"
+          >
+            test-fixture
+          </legend>
+          <div
+            className="form-group field field-string"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_test-fixture_str"
+            >
+              str
+            </label>
+            <p
+              className="field-description"
+              id="root_test-fixture_str__description"
+            >
+              string field
+            </p>
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_test-fixture_str"
+              label="str"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value="abc123"
+            />
+            <div />
+            <div />
+          </div>
+          <div
+            className="form-group field field-number"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_test-fixture_num"
+            >
+              num
+            </label>
+            <p
+              className="field-description"
+              id="root_test-fixture_num__description"
+            >
+              number field
+            </p>
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_test-fixture_num"
+              label="num"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value={12}
+            />
+            <div />
+            <div />
+          </div>
+        </fieldset>
+        <div />
+        <div />
+      </div>
+      <div
+        className="form-group field field-object"
+      >
+        <fieldset>
+          <legend
+            id="root_rawSource__title"
+          >
+            rawSource
+          </legend>
+          <div
+            className="form-group field field-string"
+          >
+            <label
+              className="control-label"
+              htmlFor="root_rawSource_myProp"
+            >
+              myProp
+            </label>
+            <div />
+            <input
+              autoFocus={false}
+              className="form-control"
+              disabled={false}
+              id="root_rawSource_myProp"
+              label="myProp"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder=""
+              readOnly={false}
+              required={false}
+              type="text"
+              value="test"
+            />
+            <div />
+            <div />
+          </div>
+        </fieldset>
+        <div />
+        <div />
+      </div>
+    </fieldset>
+    <div />
+    <div />
+  </div>
+  <p>
+    <button
+      className="btn btn-info"
+      type="submit"
+    >
+      Submit
+    </button>
+  </p>
+</form>
+`;
