@@ -22,6 +22,29 @@ export default class ContributesForm extends React.Component<IProps, {schema: an
   constructor (props: IProps) {
     super(props)
 
+    this.state = {
+      schema: this.getUpdatedSchema()
+    }
+  }
+
+  public componentDidUpdate () {
+    this.setState({
+      schema: this.getUpdatedSchema()
+    })
+  }
+
+  public render () {
+    return (
+      <SForm
+        schema={this.state.schema}
+        formData={this.props.data}
+        onSubmit={this.props.complete}>
+          {this.props.children}
+      </SForm>
+    )
+  }
+
+  private getUpdatedSchema () {
     const s = this.props.sources.map(source => contributes.from(source))
 
     const d = {
@@ -43,19 +66,6 @@ export default class ContributesForm extends React.Component<IProps, {schema: an
       d.properties[r.name] = r
     })
 
-    this.state = {
-      schema: d
-    }
-  }
-
-  public render () {
-    return (
-      <SForm
-        schema={this.state.schema}
-        formData={this.props.data}
-        onSubmit={this.props.complete}>
-          {this.props.children}
-      </SForm>
-    )
+    return d
   }
 }

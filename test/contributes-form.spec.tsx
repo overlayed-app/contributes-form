@@ -51,4 +51,22 @@ describe('contributes-form', () => {
 
     expect(tree).toMatchSnapshot()
   })
+
+  it('should update', () => {
+    const src = [`${__dirname}/fixture.package.json`]
+    const comp = <ContributesForm sources={src}/>
+    const beforeTree = renderer
+      .create(comp)
+      .toJSON()
+
+    expect(beforeTree).toMatchSnapshot()
+
+    src.push(`${__dirname}/fixture2.package.json`)
+
+    const afterTree = renderer
+      .create(comp)
+      .toJSON()
+
+    expect(afterTree).toMatchSnapshot()
+  })
 })
