@@ -14,29 +14,15 @@ interface IProps {
   complete?: (data: any) => void
 }
 
-export default class ContributesForm extends React.Component<IProps, {schema: any}> {
+export default class ContributesForm extends React.Component<IProps> {
   static defaultProps = {
     rawSources: []
   } as Partial<IProps>
 
-  constructor (props: IProps) {
-    super(props)
-
-    this.state = {
-      schema: this.getUpdatedSchema()
-    }
-  }
-
-  public componentDidUpdate () {
-    this.setState({
-      schema: this.getUpdatedSchema()
-    })
-  }
-
   public render () {
     return (
       <SForm
-        schema={this.state.schema}
+        schema={this.getUpdatedSchema() as any}
         formData={this.props.data}
         onSubmit={this.props.complete}>
           {this.props.children}
